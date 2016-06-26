@@ -26,7 +26,7 @@ return array(
     'DB_MASTER_NUM'         =>  1,           // 读写分离后 主服务器数量
     'DB_SLAVE_NO'           =>  '',          // 指定从服务器序号
     'PAGE_SETTING'=>[                        //  分页的参数
-        'PAGE_SIZE'=>3,
+        'PAGE_SIZE'=>20,
         'PAGE_THEME'=>'%HEADER% %FIRST% %UP_PAGE% %LINK_PAGE% %DOWN_PAGE% %END%',
     ],
 );
